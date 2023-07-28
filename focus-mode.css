@@ -1,0 +1,123 @@
+<html
+data-color-mode="dark
+data-is-sidebar-collapsing="true">
+
+/*hides filters bar*/
+#ghx-operations{
+	height:0px;
+	visibility:hidden;
+}
+
+/*hides user icons*/
+#ghx-controls{
+	height:0px;
+	visibility:hidden;
+}
+/*removes whitespace in ghx-operations div*/
+#ghx-controls-buttons{
+	height:0px;
+	visibility:hidden;
+}
+
+._1e0c1txw ._4cvr1h6o ._1bsb1osq ._o5721q9c{
+	height:0px !important;
+}
+._19itidpf ._18u01crf
+{
+		height:0px !important;
+}
+/*hides user icons in newer boards*/
+._otyrzwfg{
+	display: none !important;
+}
+
+/*Stops swimlane titles disapearing in newer boards*/
+.css-1dzinrg{
+	height:30px;
+}
+
+/*hides insights button*/
+.css-1f7f0z2 {
+	visibility:hidden;
+}
+
+/*hides header*/
+#ak-jira-navigation{
+	height:0px;
+	display:none;
+}
+.css-1btht9s {
+    grid-area: banner / content / content / content !important;
+}
+
+/*Makes swim-lane titles thinner*/
+#gh #ghx-work #ghx-pool-column.ghx-flexible-board #ghx-column-headers .ghx-column {
+    padding: 7px !important;
+}
+
+/*adjust project sticky headers for the thinner titles*/
+.ghx-swimlane-header{
+	top: 33px !important;
+}
+
+/*hides breadcrumbs above sprint name*/
+._1tke1tcg{
+	visibility:hidden;
+	height:0px !important;
+}
+/*shrinks breadcrumbs space*/
+.bYQimP{
+	visibility:hidden;
+	margin:0px 0px 0px 0px !important;
+	height:0px !important;
+}
+
+/*hides "Complete sprint" button*/
+.complete-sprint-container{
+	visibility:hidden;
+}
+
+/*hides favourite button - who has a favourite scrum wall anyway?*/
+.favourite-btn{
+	visibility:hidden;
+}
+
+/*hides automation button*/
+.css-ahwpyx{
+	visibility:hidden;
+}
+
+/*hides share button*/
+.css-hxlay7{
+	visibility:hidden;
+}
+
+/*hides meatball menu*/
+#board-tools-section-button{
+	visibility:hidden;
+}
+/*same but in newer boards*/
+.css-6pc8aq{
+	visibility:hidden;
+}
+
+/*hides left menu slider button, so reduct it before running the extension*/
+.css-b5kgsh {
+	visibility:hidden;
+}
+
+/*Make the tickets highlighted on mouse hover. Must be in dark mode otherwise this will look bad*/
+.ghx-issue:hover{
+	background: #323940 !important;
+	border-style:solid !important;
+	border-width:2px !important;
+	border-color: white !important;
+}
+/*Same as above but in newer style boards*/
+._1e0c1ule:hover{
+	background: #323940 !important;
+	border-style:solid !important;
+	border-width:2px !important;
+	border-color: white !important;
+}
+
