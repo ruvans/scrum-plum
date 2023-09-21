@@ -2,10 +2,19 @@
 data-color-mode="dark
 data-is-sidebar-collapsing="true">
 
+
+
 /*hides filters bar*/
 #ghx-operations{
 	height:0px;
 	visibility:hidden;
+}
+
+/*new filters bar hide*/
+.css-1qpaaev, .xheow4-0{
+	height:0px;
+	visibility:hidden;
+	margin-top:0px !important;
 }
 
 /*hides user icons*/
@@ -19,13 +28,7 @@ data-is-sidebar-collapsing="true">
 	visibility:hidden;
 }
 
-._1e0c1txw ._4cvr1h6o ._1bsb1osq ._o5721q9c{
-	height:0px !important;
-}
-._19itidpf ._18u01crf
-{
-		height:0px !important;
-}
+
 /*hides user icons in newer boards*/
 ._otyrzwfg{
 	display: none !important;
@@ -50,10 +53,6 @@ data-is-sidebar-collapsing="true">
     grid-area: banner / content / content / content !important;
 }
 
-/*Makes swim-lane titles thinner*/
-#gh #ghx-work #ghx-pool-column.ghx-flexible-board #ghx-column-headers .ghx-column {
-    padding: 7px !important;
-}
 
 /*adjust project sticky headers for the thinner titles*/
 .ghx-swimlane-header{
@@ -64,6 +63,7 @@ data-is-sidebar-collapsing="true">
 ._1tke1tcg{
 	visibility:hidden;
 	height:0px !important;
+	display: none;
 }
 /*shrinks breadcrumbs space*/
 .bYQimP{
@@ -73,31 +73,27 @@ data-is-sidebar-collapsing="true">
 }
 
 /*hides "Complete sprint" button*/
-.complete-sprint-container{
+.complete-sprint-container, .css-178ag6o{
 	visibility:hidden;
 }
 
 /*hides favourite button - who has a favourite scrum wall anyway?*/
-.favourite-btn{
+.favourite-btn, .css-1gd7hga{
 	visibility:hidden;
 }
 
 /*hides automation button*/
-.css-ahwpyx{
+.css-ahwpyx, .css-1afrefi{
 	visibility:hidden;
 }
 
 /*hides share button*/
-.css-hxlay7{
+.css-hxlay7, .css-1luyhz2{
 	visibility:hidden;
 }
 
 /*hides meatball menu*/
-#board-tools-section-button{
-	visibility:hidden;
-}
-/*same but in newer boards*/
-.css-6pc8aq{
+#board-tools-section-button, .css-6pc8aq{
 	visibility:hidden;
 }
 
@@ -107,17 +103,14 @@ data-is-sidebar-collapsing="true">
 }
 
 /*Make the tickets highlighted on mouse hover. Must be in dark mode otherwise this will look bad*/
-.ghx-issue:hover{
-	background: #323940 !important;
-	border-style:solid !important;
-	border-width:2px !important;
-	border-color: white !important;
-}
-/*Same as above but in newer style boards*/
-._1e0c1ule:hover{
+.ghx-issue:hover, ._1e0c1ul, .sc-7ay0j8-0:hover{
 	background: #323940 !important;
 	border-style:solid !important;
 	border-width:2px !important;
 	border-color: white !important;
 }
 
+/*removes extra padding from top of page*/
+.css-cayjis{
+	margin: 0px 0px 0px 0px !important;
+}
